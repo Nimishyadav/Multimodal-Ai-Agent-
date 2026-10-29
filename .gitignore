@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+.dist/
+*.log
+.vscode/
+.idea/
+# Documentation build and preview files
+docs/detailed_guide_assets/
+docs/handover_assets/

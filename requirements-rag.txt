@@ -1,0 +1,7 @@
+-r requirements.txt
+# Optional isolated multimodal backend; install in .venv-rag, not the UI environment.
+raganything==1.4.3
+mineru[core]==3.4.5
+lightrag-hku==1.4.16
+fastembed==0.9.1
+

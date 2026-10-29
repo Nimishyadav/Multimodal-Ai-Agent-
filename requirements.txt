@@ -1,0 +1,32 @@
+# Phase 1 foundation: LangChain Groq integration and local settings.
+# Phase 4: explicit stateful graph orchestration.
+langchain-groq
+python-dotenv
+langgraph
+
+# Streamlit UI brought forward at user request.
+streamlit>=1.65,<2
+
+# Durable local chat checkpoints.
+langgraph-checkpoint-sqlite
+
+# Local text PDF extraction; retrieval uses the standard library.
+pypdf
+
+# Gemini model backend for the mentor demo.
+langchain-google-genai
+
+# Separate free-only Excel planner and local table processing.
+langchain-openai
+pandas
+openpyxl
+
+python-docx
+python-pptx
+Pillow>=11
+pillow-heif
+xlrd
+pyxlsb
+odfpy
+
+beautifulsoup4>=4.12,<5
